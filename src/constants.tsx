@@ -1,6 +1,6 @@
-
 import { DriverProfile, Truck, Load, ClientShipmentRequest, Trip, CarrierOffer, CarrierApplication, Dispute, AdminUserView, Transaction } from './types';
 
+// Structural Constants (Do not delete)
 export const TRUCK_POSITIONS = [
   { id: 'p1', name: 'Head Rack' },
   { id: 'p2', name: 'Truck Deck' },
@@ -12,8 +12,6 @@ export const TRUCK_POSITIONS = [
   { id: 'p7', name: 'Lower Front' },
   { id: 'p8', name: 'Tail' },
 ];
-
-
 
 export const US_LOCATIONS = [
   "New York, NY", "Los Angeles, CA", "Chicago, IL", "Houston, TX", "Phoenix, AZ", 
@@ -34,5 +32,17 @@ export const US_LOCATIONS = [
   "Scottsdale, AZ", "Reno, NV", "Glendale, AZ", "Gilbert, AZ", "Winston-Salem, NC",
   "North Las Vegas, NV", "Norfolk, VA", "Chesapeake, VA", "Garland, TX", "Irving, TX",
   "Hialeah, FL", "Fremont, CA", "Boise, ID", "Richmond, VA", "Baton Rouge, LA"
-
 ];
+
+
+// --- DATOS LIMPIOS (VACÍOS) ---
+export const MOCK_TRUCKS: Truck[] = [];
+export const MOCK_DRIVERS: DriverProfile[] = [];
+export const MOCK_LOADS: Load[] = [];
+export const MOCK_OFFERS: CarrierOffer[] = [];
+export const MOCK_CLIENT_REQUESTS: ClientShipmentRequest[] = [];
+export const MOCK_TRIPS: Trip[] = [];
+export const MOCK_PENDING_APPLICATIONS: CarrierApplication[] = [];
+export const MOCK_DISPUTES: Dispute[] = [];
+export const MOCK_ALL_USERS: AdminUserView[] = [];
+export const MOCK_TRANSACTIONS: Transaction[] = [];
